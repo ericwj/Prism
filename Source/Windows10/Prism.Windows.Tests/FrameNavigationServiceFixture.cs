@@ -1,21 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
-using Windows.ApplicationModel.Core;
-using Windows.Foundation;
-using Windows.UI.Core;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Prism.Windows.Navigation;
+using Prism.Windows.Tests.Mocks;
+using Prism.Windows.Tests.Utilities;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using Prism.Windows.Mvvm;
-using Prism.Windows.Tests.Mocks;
-using Prism.Windows.AppModel;
-using Prism.Windows.Navigation;
-using Prism.Windows.Tests.Utilities;
 
-namespace Prism.Windows.Tests
-{
+namespace Prism.Windows.Tests {
     [TestClass]
     public class FrameNavigationServiceFixture
     {

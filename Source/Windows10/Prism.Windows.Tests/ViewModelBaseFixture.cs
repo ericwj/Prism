@@ -1,13 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Prism.Mvvm;
 using Prism.Windows.Navigation;
 using Prism.Windows.Tests.Mocks;
 using Windows.UI.Xaml.Navigation;
 
-namespace Prism.Windows.Tests
-{
+namespace Prism.Windows.Tests {
     [TestClass]
     public class ViewModelBaseFixture
     {

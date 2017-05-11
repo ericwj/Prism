@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Prism.Events;
 using Prism.Windows.AppModel;
 using Prism.Windows.Navigation;

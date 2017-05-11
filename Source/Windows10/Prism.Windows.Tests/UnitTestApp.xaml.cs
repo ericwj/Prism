@@ -4,8 +4,7 @@ using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Navigation;
 
-namespace Prism.Windows.Tests
-{
+namespace Prism.Windows.Tests {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>

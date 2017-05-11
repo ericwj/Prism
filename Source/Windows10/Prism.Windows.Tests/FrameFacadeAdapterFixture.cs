@@ -1,17 +1,14 @@
-﻿using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Prism.Events;
 using Prism.Windows.Navigation;
 using Prism.Windows.Tests.Mocks;
 using Prism.Windows.Tests.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
 
-namespace Prism.Windows.Tests
-{
+namespace Prism.Windows.Tests {
     [TestClass]
     public class FrameFacadeAdapterFixture
     {
